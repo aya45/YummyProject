@@ -1,0 +1,55 @@
+body{
+    background-color: #0D0D0D;
+    color: #f9f6f6 !important;
+    overflow: hidden;
+}
+
+.nav-tab{
+    background-color: #0D0D0D;
+}
+
+.logo{
+    width: 50px;
+}
+
+i{
+    cursor: pointer;
+}
+
+.alert{
+    width: fit-content;
+}
+
+.meals-lay{
+    background-color: #f9f6f6ca;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    transition: .5s;
+}
+
+.meal:hover .meals-lay{
+    top: 0;
+}
+
+.side-nav-menu{
+    z-index: 99;
+}
+
+.loading-screen{
+    z-index: 999;
+    display: flex;
+}
+
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+
+.inner-loading-screen{
+    position: absolute;
+    z-index: 9;
+    background-color: #0D0D0D;
+    display: flex;
+}
